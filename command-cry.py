@@ -1,7 +1,7 @@
 import socket
 import sys
 
-TARGET_IP = "192.168.3.21"
+TARGET_IP = "ここにサーバー側のipを入力"
 
 def start_client():
     with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
